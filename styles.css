@@ -45,7 +45,19 @@ body{
 }
 
 .top{
-    padding: 48px 206px;
+    /* padding: 48px 154px;
+    border: 1px solid #f7ca02;
+    border-radius: 24px;
+    margin-bottom: 12px;
+    background-color: #fcf4de; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.screen{
+    padding: 48px 154px;
     border: 1px solid #f7ca02;
     border-radius: 24px;
     margin-bottom: 12px;
