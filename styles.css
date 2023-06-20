@@ -24,12 +24,17 @@ body{
     padding: 12px 36px;
     font-size: 68px;
     color: #b39402;
+    font-family: 'Dosis', sans-serif;
+    background: linear-gradient(#ffe08c, #7d6802);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
     /* border: 1px solid #b39402; */
     border-radius: 42px;
     box-shadow: 10px 10px 5px #7d6802;
 }
 
-.item{
+.number, .operator, .clear, .decimal, .equal{
     padding: 48px;
     border: 1px solid #f7ca02;
     border-radius: 24px;
@@ -40,11 +45,11 @@ body{
     color: #b39402;
 }
 
-.item:hover {
+.number:hover, .operator:hover, .clear:hover, .decimal:hover, .equal:hover {
     background-color: #fac432;
 }
 
-.top{
+.header{
     /* padding: 48px 154px;
     border: 1px solid #f7ca02;
     border-radius: 24px;
@@ -75,6 +80,7 @@ body{
 
 .top{
     font-size: 22px;
+
 }
 
 .bottom{
